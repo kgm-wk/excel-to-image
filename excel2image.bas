@@ -10,7 +10,8 @@ Sub ExcelToImage()
         Ws.Activate
         
         Set imageRng = ActiveSheet.UsedRange
-        sImageFilePath = ActiveSheet.Name & "_" & VBA.Format(VBA.Now, "yyyymmdd_hhnnss_aaa") & ".jpg"
+        'sImageFilePath = ActiveSheet.Name & "_" & VBA.Format(VBA.Now, "yyyymmdd_hhnnss_aaa") & ".jpg"
+        sImageFilePath = ActiveSheet.Name & "_" & ThisWorkbook.Name & ".jpg"
         
         'Create Temporary workbook to hold image
         Dim wbTemp As Workbook

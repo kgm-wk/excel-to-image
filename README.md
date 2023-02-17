@@ -1,5 +1,16 @@
 # Excel VBAでシートをjpgに変換
 
+## 使用方法
+1. Excelを起動
+1. ファイルタブ / オプション / Excelのオプション / リボンのユーザー設定 / 開発をチェック
+1. Alt + F11でVisual Basic Editorを起動
+1. Ctrl + mでファイルのインポート、excel2image.basを開く
+1. Ctrl + rでプロジェクトエクスプローラーを選択
+1. 標準モジュールを開き、Excel2Imageをダブルクリック
+1. Ctrl + sで保存[いいえ]を選択
+1. ファイルの種類をExcel マクロ有効ブックにする
+1. F5キーを押してシートをjpgに変換
+
 ## 参考サイト
 - [Convert Excel to Jpg Image - VBA Code](https://officetricks.com/convert-range-excel-to-image-vba/)
 - [ブック内のすべてのワークシートで同じ処理を行う 《For Each～Next》｜Excel｜ヘルプの森](https://www.helpforest.com/excel/emv_sample/ex100001.htm)
